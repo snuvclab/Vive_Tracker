@@ -4,9 +4,7 @@ Vive Tracker 6 DOF Tracking
 <img src="imgs/vive_tracker.png" alt="pipeline" class="center"/><br/><br/>
 </p>
 
-> - Left image indicates a poor partitioned graph. There are many inter-partition links <br/>
-> - Right image indicates a good partitoned graph. Vertices that are highly connected are assigned to the same partition.<br/>
-> - Our method aims to reduce the number of vertex-cuts in the final partitioned graph.
+> - HTC Base Station and Vive Tracker
 
 ## Environment Setup
 > Clone the respository:
