@@ -1,7 +1,7 @@
 # Vive_Tracker
 Vive Tracker 6 DOF Tracking
 <p align= "center">
-<img src="imgs/vive_tracker.png",alt="pipeline" class="center"/><br/><br/>
+<img src="imgs/vive_tracker.png" alt="pipeline" class="center"/><br/><br/>
 </p>
 
 > - Left image indicates a poor partitioned graph. There are many inter-partition links <br/>
@@ -11,8 +11,8 @@ Vive Tracker 6 DOF Tracking
 ## Environment Setup
 > Clone the respository:
 ```
-git clone https://github.com/yc4ny/Graph-Partitioning.git
-cd Graph-Partitioning
+git clone https://github.com/snuvclab/Vive_Tracker.git
+cd Vive_Tracker
 ```
 > Note: This code was developed on Ubuntu 20.04 with Python 3.5. Later versions should work, but have not been tested.<br/>
 > Create and activate a virtual environment to work in, e.g. using Conda: <br/>
