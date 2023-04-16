@@ -1,19 +1,13 @@
 import sys
 import time
+import argparse
 from track import vive_tracker
 
-def get_interval():
-    # Check the number of command line arguments
-    args_count = len(sys.argv)
-    if args_count == 1:
-        # If there's no input argument, use the default interval (30 Hz) 
-        return 1/30
-    elif args_count == 2:
-        # If there's one input argument, use it as the frequency (in Hz)
-        return 1 / float(sys.argv[1])
-    else:
-        print("Invalid number of arguments")
-        return None
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Vive Tracker Pose Data Display")
+    parser.add_argument("-f", "--frequency", type=float, default=30.0,
+                        help="Frequency of tracker data updates (in Hz). Default: 30 Hz")
+    return parser.parse_args()
 
 def print_tracker_data(tracker, interval):
     # Continuously print tracker pose data at the specified interval
@@ -34,17 +28,19 @@ def print_tracker_data(tracker, interval):
             time.sleep(sleep_time)
 
 def main():
+    # Parse command line arguments
+    args = parse_arguments()
+
+    # Calculate interval based on the specified frequency
+    interval = 1 / args.frequency
+
     # Initialize Vive Tracker and print discovered objects
     v_tracker = vive_tracker()
     v_tracker.print_discovered_objects()
 
-    # Get interval based on command line arguments
-    interval = get_interval()
-
-    # If the interval is valid, print tracker data
-    if interval:
-        tracker_1 = v_tracker.devices["tracker_1"]
-        print_tracker_data(tracker_1, interval)
+    # Print tracker data
+    tracker_1 = v_tracker.devices["tracker_1"]
+    print_tracker_data(tracker_1, interval)
 
 if __name__ == "__main__":
     main()
