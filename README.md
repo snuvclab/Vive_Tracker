@@ -12,7 +12,7 @@ Vive Tracker 6 DOF Tracking
 > - Field of view: 240 Degrees 
 > - Components: Vive Tracker, Dongle, Dongle Cradle (USB-C), USB cable
 
-## Environment Setup
+## Installing Dependencies
 > Clone the respository:
 ```
 git clone https://github.com/snuvclab/Vive_Tracker.git
@@ -25,10 +25,17 @@ cd Vive_Tracker
 conda create -n venv_vive python=3.7
 conda activate venv_vive
 ```
-> Install openvr
+> Install OpenVR library
 
 ```
 pip install openvr
+```
+
+## Setting up SteamVR
+> Install STEAM:
+```
+https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
+sudo dpkg -i YourDownloadDirectory/steam_latest.deb
 ```
 
 ## Data Preparation
