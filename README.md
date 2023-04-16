@@ -32,11 +32,15 @@ pip install openvr
 ```
 
 ## Setting up SteamVR
-> Install STEAM:
+> Install Steam:
 ```
 https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i YourDownloadDirectory/steam_latest.deb
+sudo apt-get update
+sudo apt upgrade
 ```
+
+> 
 
 ## Data Preparation
 
