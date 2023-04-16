@@ -64,3 +64,11 @@ You can restart quickly by clicking the <b>VR</b> button on the top right corner
 <p align= "center">
 <img src="imgs/steamvr_location.png" alt="pipeline" class="center"/><br/><br/>
 </p>
+
+## Running the Tracker 
+You can run the tracker by running
+```
+python run_tracker.py -f FrequencyValue
+eg. python run_tracker.py -f 30
+```
+The <b>-f</b> flag indicates the frequency of location update, so if you are using a camera which takes video as 30fps, you can add the <b>-f 30</b> flag. 
