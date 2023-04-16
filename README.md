@@ -77,7 +77,7 @@ The <b>-f</b> flag indicates the frequency of location update, so if you are usi
 </p>
 
 > - Output: x,y,z,yaw,pitch,roll
-## Visualizing Camera Trajectory
+## Visualization
 To be updated...
 
 
