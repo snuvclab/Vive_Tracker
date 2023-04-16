@@ -76,6 +76,7 @@ The <b>-f</b> flag indicates the frequency of location update, so if you are usi
 <img src="imgs/output.png" alt="pipeline" class="center"/><br/><br/>
 </p>
 
+> - Output: x,y,z,yaw,pitch,roll
 ## Visualizing Camera Trajectory
 To be updated...
 
