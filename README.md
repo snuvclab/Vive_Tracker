@@ -54,3 +54,6 @@ home/yourDirectory/.local/share/Steam/steamapps/common/SteamVR/resources/setting
 eg. /home/yc4ny/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
 ```
 Change the <b>requireHmd: True</b> to <b>requireHmd: False</b>
+<p align= "center">
+<img src="imgs/requirehmd.png" alt="pipeline" class="center"/><br/><br/>
+</p>
