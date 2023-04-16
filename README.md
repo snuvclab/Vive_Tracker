@@ -72,3 +72,9 @@ python run_tracker.py -f FrequencyValue
 eg. python run_tracker.py -f 30
 ```
 The <b>-f</b> flag indicates the frequency of location update, so if you are using a camera which takes video as 30fps, you can add the <b>-f 30</b> flag. 
+<p align= "center">
+<img src="imgs/output.png" alt="pipeline" class="center"/><br/><br/>
+</p>
+
+## Errors you could encounter
+
