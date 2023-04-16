@@ -18,29 +18,17 @@ Vive Tracker 6 DOF Tracking
 git clone https://github.com/snuvclab/Vive_Tracker.git
 cd Vive_Tracker
 ```
-> Note: This code was developed on Ubuntu 20.04 with Python 3.5. Later versions should work, but have not been tested.<br/>
+> Note: This code was developed on Ubuntu 20.04 with Python 3.7. Later versions should work, but have not been tested.<br/>
 > Create and activate a virtual environment to work in, e.g. using Conda: <br/>
 
 ```
-conda create -n venv_graph python=3.5
-conda activate venv_graph
+conda create -n venv_vive python=3.7
+conda activate venv_vive
 ```
-
-> The codebase is implemented in Python 3.5.2 | Anaconda 4.2.0 (64-bit). Package versions used for development are just below.
-
-```
-networkx          2.4
-tqdm              4.64.1
-numpy             1.18.5
-pandas            0.25.3      
-python-louvain    0.11
-texttable         1.6.7
-```
-
-> Install the requirements with pip:
+> Install openvr
 
 ```
-pip install -r requirements.txt
+pip install openvr
 ```
 
 ## Data Preparation
