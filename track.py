@@ -4,6 +4,7 @@ import openvr
 import math
 import json
 
+
 from functools import lru_cache
 
 # Function to print out text but instead of starting a new line it will overwrite the existing line
