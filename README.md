@@ -4,7 +4,7 @@ Vive Tracker 6 DOF Tracking
 <img src="imgs/vive_tracker.png" width=500 height=300 alt="pipeline" class="center"/><br/><br/>
 </p>
 
-> - HTC Base Station and Vive Tracker
+> - HTC Base Station and Vive Tracker 3.0
 > - Tracking: Support for SteamVR BS1.0 and BS2.0 
 > - Weight: 75g
 > - Dimensions: 70.9 x 79.0 x 44.1 mm
