@@ -1,7 +1,7 @@
 # Vive_Tracker
 Vive Tracker 6 DOF Tracking
 <p align= "center">
-<img src="imgs/vive_tracker.png" alt="pipeline" class="center"/><br/><br/>
+<img src="imgs/vive_tracker.png" width=500 height=300 alt="pipeline" class="center"/><br/><br/>
 </p>
 
 > - HTC Base Station and Vive Tracker
