@@ -57,3 +57,10 @@ Change the <b>requireHmd: True</b> to <b>requireHmd: False</b>
 <p align= "center">
 <img src="imgs/requirehmd.png" alt="pipeline" class="center"/><br/><br/>
 </p>
+
+> Restart SteamVR
+If you have run SteamVR in advance, please restart SteamVR. 
+You can restart quickly by clicking the <b>VR</b> button on the top right corner of Steam.
+<p align= "center">
+<img src="imgs/steamvr_location.png" alt="pipeline" class="center"/><br/><br/>
+</p>
