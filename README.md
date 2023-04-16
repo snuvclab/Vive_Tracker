@@ -1,7 +1,7 @@
 # Vive_Tracker
 Vive Tracker 6 DOF Tracking
 <p align= "center">
-<img src="imgs/vive_tracker.png" width="650" height="320" alt="pipeline" class="center"/><br/><br/>
+<img src="imgs/vive_tracker.png",alt="pipeline" class="center"/><br/><br/>
 </p>
 
 > - Left image indicates a poor partitioned graph. There are many inter-partition links <br/>
