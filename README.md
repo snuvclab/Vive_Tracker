@@ -1,2 +1,2 @@
 # Vive_Tracker
-Using Vive Tracker for estimating 6DOF
+Vive Tracker 6 DOF Tracking
