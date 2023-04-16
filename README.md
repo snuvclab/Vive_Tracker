@@ -12,7 +12,7 @@ Vive Tracker 6 DOF Tracking
 > - Field of view: 240 Degrees 
 > - Components: Vive Tracker, Dongle, Dongle Cradle (USB-C), USB cable
 
-## Installing Dependencies
+## Installing Python Dependencies
 > Clone the respository:
 ```
 git clone https://github.com/snuvclab/Vive_Tracker.git
