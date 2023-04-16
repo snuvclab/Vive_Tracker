@@ -5,6 +5,12 @@ Vive Tracker 6 DOF Tracking
 </p>
 
 > - HTC Base Station and Vive Tracker
+> - Tracking: Support for SteamVR BS1.0 and BS2.0 
+> - Weight: 75g
+> - Dimensions: 70.9 x 79.0 x 44.1 mm
+> - Battery Life: 7.5 hours
+> - Field of view: 240 Degrees 
+> - Components: Vive Tracker, Dongle, Dongle Cradle (USB-C), USB cable
 
 ## Environment Setup
 > Clone the respository:
