@@ -40,7 +40,11 @@ sudo apt-get update
 sudo apt upgrade
 ```
 
-> 
+> Install SteamVR: 
+After logging in with a Steam Account, install SteamVR. 
+<p align= "center">
+<img src="imgs/steam_vr_location.png" alt="pipeline" class="center"/><br/><br/>
+</p>
 
 ## Data Preparation
 
