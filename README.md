@@ -45,3 +45,11 @@ After logging in with a Steam Account, install SteamVR (Store -> Search for "Ste
 <p align= "center">
 <img src="imgs/steam_vr_location.png" alt="pipeline" class="center"/><br/><br/>
 </p>
+
+> Remove HDM requirement:
+Since we do not have the Vive HMD (Head Mounted Display) you have to change a setting file. 
+You can find the config file in:
+```
+home/yourDirectory/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
+eg. /home/yc4ny/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
+```
