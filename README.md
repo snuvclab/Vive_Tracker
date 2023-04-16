@@ -48,7 +48,7 @@ After logging in with a Steam Account, install SteamVR (Store -> Search for "Ste
 
 > Remove HDM requirement:
 Since we do not have the Vive HMD (Head Mounted Display) you have to change a setting file. 
-You can find the <bold>default.vrsettings<bold> config file in:
+You can find the <b>default.vrsettings<b> config file in:
 ```
 home/yourDirectory/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
 eg. /home/yc4ny/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
