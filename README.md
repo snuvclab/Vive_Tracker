@@ -53,3 +53,4 @@ You can find the <b>default.vrsettings</b> config file in:
 home/yourDirectory/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
 eg. /home/yc4ny/.local/share/Steam/steamapps/common/SteamVR/resources/settings/default.vrsettings
 ```
+Change the <b>requireHmd: True</b> to <b>requireHmd: False</b>
