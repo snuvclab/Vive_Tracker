@@ -3,8 +3,11 @@ import sys
 import openvr
 import math
 import json
+from IPython import embed 
+from fairmotion_utils import constants
+import numpy as np
 
-class vive_tracker():
+class ViveTrackerModule():
     def __init__(self, configfile_path=None):
         self.vr = openvr.init(openvr.VRApplication_Other)
         self.vrsystem = openvr.VRSystem()
@@ -19,6 +22,13 @@ class vive_tracker():
 
     def __del__(self):
         openvr.shutdown()
+
+    def return_selected_devices(self, device_key=""):
+        selected_devices = {}
+        for key in self.devices:
+            if device_key in key:
+                selected_devices[key] = self.devices[key]
+        return selected_devices
 
     def get_pose(self):
         return get_pose(self.vr)
@@ -98,7 +108,6 @@ def update_text(txt):
     sys.stdout.flush()
 
 def convert_to_euler(pose_mat):
-
     """Convert a 3x4 position/rotation matrix to an x, y, z location and the corresponding Euler angles (in degrees).
 
     Args:
@@ -188,6 +197,8 @@ class vr_tracked_device():
         self.device_class = device_class
         self.index = index
         self.vr = vr_obj
+        self.T = constants.eye_T()
+
 
     def get_serial(self):
         """Get the serial number of the tracked device."""
@@ -227,6 +238,13 @@ class vr_tracked_device():
             if sleep_time > 0:
                 time.sleep(sleep_time)
         return rtn
+
+    def get_T(self, pose=None):
+        pose_mat = self.get_pose_matrix()
+        if pose_mat: # not None
+            np_pose_mat = np.array(pose_mat)['m']
+            self.T[:3,:] = np_pose_mat       
+        return self.T
 
     def get_pose_euler(self, pose=None):
         """Get the pose of the tracked device in Euler angles.

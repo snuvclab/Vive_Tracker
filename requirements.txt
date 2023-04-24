@@ -1,0 +1,5 @@
+openvr
+PyOpenGL-3.1.6-cp38-cp38-win_amd64.whl
+PyOpenGL_accelerate-3.1.6-cp38-cp38-win_amd64.whl
+scipy
+ipython
